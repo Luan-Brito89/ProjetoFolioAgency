@@ -1,0 +1,21 @@
+header{
+    width: 100vw;
+    height: 128px;
+    align-items: center;
+    display: flex;
+}
+
+header .navigation-mobile{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 3.25rem 2rem 2.75rem;
+    width: 100vw;
+}
+
+.btn-menu{
+    border: none;
+    outline: none;
+    background: transparent;
+    align-self: center ;
+}

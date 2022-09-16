@@ -1,0 +1,63 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #232340;
+}
+
+
+
+.navigation-mobile{
+    position: absolute;
+    padding: 20px;
+    width: 100vw;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-mobile .logo{
+    width: 128px;
+    
+}
+
+.linha-azul{
+    position: absolute;
+    top: 0;
+    right: 0; 
+}
+
+
+.navigation-mobile .btn-x{
+    align-self: center;
+    background: transparent;
+    border: none;
+    
+}
+
+.menu-lateral{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu-lateral a{
+    display: flex;
+    text-decoration: none;
+    padding: 40px;
+    cursor: pointer;
+
+}
+
+.footer-icons{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 100px;
+}
+
